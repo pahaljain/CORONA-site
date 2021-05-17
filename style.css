@@ -1,0 +1,258 @@
+body{
+    font-family: 'Montserrat' , sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.75rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+p{
+    font-size :1.25rem;
+}
+
+/* First Container */
+
+.first-container{
+    background-color: #a4ebf3;
+    padding: 4% 15% 7%;
+}
+
+.first-container h1{
+    padding: 70px 0;
+    line-height: 1.5;
+    font-family: 'Montserrat' ,sans-serif ;
+    font-weight: bold;
+}
+
+.first-container h3 em{
+    color: #007bff;;
+}
+
+.covid-image{
+    width: 20rem;
+}
+
+/* Navbar  */
+
+.first-container nav{
+    padding: 0%;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+}
+
+.navbar-items{
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+
+/* Second Container */
+
+.second-container{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.covid-icons{
+    font-size: 100px;
+    padding: 0 80px 20px;
+    color: #FF6666;
+}
+
+.covid-icons:hover{
+    color: #fb4848;
+}
+
+.second-container  h2{ 
+    font-family: 'Montserrat' ,sans-serif ;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.second-container p{
+    /* font-size: 1.4rem; */
+    color: #8f8f8f;
+}
+
+.second-container a{
+    color: #000000;
+}
+
+/* Third container */
+
+.third-container{
+    padding: 7% 15%;
+    background-color: #FFB3B3;
+    color: black;
+}
+
+.third-container h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.form{
+    background-color: white;
+}
+
+
+.form .input{
+    border: 0 ;
+    border-bottom: 2px solid black;
+    width: 250px;
+}
+
+.form textarea{
+    border: 0;
+    border-bottom: 2px solid black;
+    width : 80%;
+    /* height: 100px; */
+}
+
+/* Fourth Container */
+
+.fourth-container{
+    background-color: #a4ebf3;
+    padding: 7% 15%;
+}
+
+
+.content{
+    background-color: #FFB3B3;
+}
+
+.info-btn{
+    font-size: 1.75rem;
+}
+
+.fourth-container h4{
+    display: inline;
+    
+}
+
+/* footer section */
+
+.footer{
+    padding: 2% 15%;
+}
+
+.footer .symbol{
+    font-size: 2.5rem;
+    padding: 0 15px;
+}
+
+.symbol-div{
+    text-align: center;
+}
+
+.github{
+    color: #242323;
+}
+
+.insta{
+    color : rgb(221, 42, 123)
+}
+.insta:hover{
+    color : #F58529 ;
+}
+
+
+/* Faq footer */
+
+.faq-footer{
+    padding: 2% 12% 0%;    
+}
+
+/* Faqs Container */
+
+.faq-container {
+    padding: 3% 9%;
+}
+
+.faq-container nav{
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.faq-container h1{
+    font-weight: bold;
+}
+
+.faq-container h3{
+    color: #fa4b4b;
+    padding: 10px auto;
+}
+
+.faq-container p{
+    padding: 5px auto;
+}
+
+.faq-container img{
+    padding: 20px auto;
+}
+.image-div{
+    text-align: center;
+}
+
+/* Responsiveness */
+
+@media(max-width: 1150px){
+    
+    .faq-container img{
+        width: 500px;
+    }    
+    .nav-link{
+        font-size: 0.7rem;
+    }
+}
+
+@media(max-width : 550px){
+    h1{
+        font-size: 1.75rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3,h4{
+        font-size: 1.3rem;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+    a{
+        font-size: 0.7rem;
+    }
+    .nav-link{
+        font-size: 1.5rem;
+    }
+
+    .covid-icons{
+        font-size: 70px;
+    }
+
+    .covid-image{
+        width: 15rem;
+    }
+
+    .faq-container img{
+        width: 350px;
+    }
+    .faq-container{
+        padding: 1% 4%;
+    }
+    .faq-footer , .footer{
+        padding: 1% 4%;
+        text-align: center;
+    }
+}
