@@ -225,13 +225,16 @@ p{
         font-size: 1.5rem;
     }
     h3,h4{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     p{
         font-size: 0.9rem;
     }
     a{
         font-size: 0.7rem;
+    }
+    .navbar-brand{
+        font-size: 2rem;
     }
     .nav-link{
         font-size: 1.5rem;
@@ -254,5 +257,36 @@ p{
     .faq-footer , .footer{
         padding: 1% 4%;
         text-align: center;
+    }
+    .form .input{
+        width: 200px
+    }
+}
+
+@media(max-width : 391px){
+    .navbar-brand{
+        font-size: 2rem;
+    }
+    .nav-link{
+        font-size: 1.3rem;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+    h3,h4{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+    a{
+        font-size: 0.6rem;
+    }
+
+    .faq-container img{
+        width: 300px;
     }
 }
