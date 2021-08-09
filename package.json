@@ -1,0 +1,23 @@
+{
+  "name": "corona-site",
+  "version": "1.0.0",
+  "description": "this website provides helpful resources and verified informations related to covid 19",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arpitv970/CORONA-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arpitv970/CORONA-site/issues"
+  },
+  "homepage": "https://github.com/arpitv970/CORONA-site#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3"
+  }
+}
