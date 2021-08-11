@@ -10,9 +10,9 @@ router.get('/', (req, res)=>{
     res.sendFile(path.join(__dirname, '../index.html'));
 })
 
-// routing to faqs page
-router.get('/faqs.html', (req, res)=>{
-    res.sendFile(path.join(__dirname, '../faqs.html'));
-})
+// // routing to faqs page
+// router.get('/faqs.html', (req, res)=>{
+//     res.sendFile(path.join(__dirname, '../faqs.html'));
+// })
 
 module.exports = router    // exporting router variable module
