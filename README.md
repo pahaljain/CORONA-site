@@ -7,7 +7,7 @@ Stack | Technology | Status
 
 # Installing
 ## This Project is based on [Node.Js](https://nodejs.org/en/) so first install it!
-### Include `node_modules` 
+### Include `node_modules` using `npm`
 ```bash
 npm init
 ```
