@@ -16,4 +16,12 @@ npm init
 npm install express --save
 ```
 # Running on Local-Host
-## After Installing [Node.js](https://nodejs.org/en/)
+## After Installing [Node.js](https://nodejs.org/en/), run the project on local
+### To run the this project, run `index.js` file using following commands in `CORONA-SITE` directory
+```bash
+node index.js
+```
+### For new changes in project to be reflected automatically use the following commands in `CORONA-SITE` directory
+```bash
+nodemon index.js
+```
