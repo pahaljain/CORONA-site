@@ -21,7 +21,7 @@ npm install express --save
 ```bash
 node index.js
 ```
-### For new changes in project to be reflected automatically use the following commands in `CORONA-SITE` directory
+## For new changes in project to be reflected automatically use the following commands in `CORONA-SITE` directory
 ```bash
 nodemon index.js
 ```
